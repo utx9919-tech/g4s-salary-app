@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Search, Edit, Trash2, Plus, Calculator, X } from 'lucide-react';
 
-const G4SApp = () => {
+const App = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date().getMonth());
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   const [isAdminMode, setIsAdminMode] = useState(false);
@@ -684,4 +684,4 @@ const SalaryDetailModal = ({ employee, salaryInfo, bonuses, deductions, onClose 
   );
 };
 
-export default G4SApp;
+export default App;
